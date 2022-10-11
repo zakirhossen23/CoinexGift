@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "H:\\Code\\CoinexGift\\Website\\contracts\\contracts\\CoinexERC721.sol": {
-      "lastModificationDate": 1665504438786,
-      "contentHash": "95c595b226066b7fdacb38eaf6f0ae0b",
+      "lastModificationDate": 1665506017296,
+      "contentHash": "e23059c116796879d22a6f3ef5249832",
       "sourceName": "contracts/CoinexERC721.sol",
       "solcConfig": {
         "version": "0.8.6",
