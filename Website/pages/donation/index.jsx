@@ -55,8 +55,8 @@ export default function Donation() {
           const value = valueAll[1]
           const statusvalue = valueAll[2]                                   //Get Event Status if it is finished or waiting for NFT release          
 
-          if (value) {
-            const object = JSON.parse(value)                                //Parsing JSON to object
+          const object = JSON.parse(value)                                //Parsing JSON to object
+          if (object.properties.logo.description) {
             //Checking if the event date is expired or not
             var c = new Date(object.properties.Date.description).getTime()
             var n = new Date().getTime()
@@ -72,7 +72,7 @@ export default function Donation() {
               Title: object.properties.Title.description,
               Date: object.properties.Date.description,
               Goal: object.properties.Goal.description,
-              logo: object.properties.logo.description.url,
+              logo: object.properties.logo.description?.url,
               wallet: object.properties.wallet.description,
               status: statusvalue
             })
