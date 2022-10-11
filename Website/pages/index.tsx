@@ -38,7 +38,7 @@ export default function Welcome() {
 			<div className="welcome row" style={{ flexDirection: 'column', alignItems: 'center',height: '70vh' }}>
 				<img src="/favicon.png" className='welcome img' />
 				<div className="text-center">
-					<h1 className='welcome title fw-bolder'>A gift with a story</h1>
+					<h1 className='welcome title fw-bolder'>A gift near to your heart</h1>
 				</div>
 				<div className="text-center">
 					<h4 className='welcome description' >
